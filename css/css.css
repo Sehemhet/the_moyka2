@@ -1,0 +1,82 @@
+body {
+  background-image: url("../img/The_moyka.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+header, main, footer {
+  padding: 0 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  padding-top: 20px;
+  height: 100px;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  background-color: rgba(245, 222, 179, 0.5);
+  letter-spacing: 0.1em;
+  line-height: 0.4em;
+}
+
+main {
+  height: 1000px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  text-align: center;
+  padding-left: 0px;
+  /* line-height: 0.4em; */
+}
+
+li {
+  display: inline-block;
+}
+
+.menu {
+  display: inline-block;
+  width: 10em;
+}
+
+.menu:hover, .menu:active, .lang:hover, .lang:active, .a_right:hover, .a_right:active {
+  color: rgba(125, 62, 17,1);
+}
+
+.head1, .head2, .left, .right, .logo {
+  height: 40px;
+}
+
+.head2 {
+  display: inline-block;
+  width: 100%;
+}
+
+.head1 {
+  display: flex;
+  width: 100%;
+}
+
+.left, .right {
+  width: 50%;
+  display: flex;
+}
+
+.lang {
+  margin-left: 15px;
+  display: list-item;
+}
+
+.right {
+  justify-content: flex-end;
+}

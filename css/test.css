@@ -1,0 +1,134 @@
+body {
+  background-image: url('../img/The_moyka.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0 0;
+  color: white;
+  font-size: 1vw;
+}
+
+header {
+  background-color: rgba(245, 222, 179, 0.5);
+  position: fixed;
+  z-index: 3;
+  top: 0px;
+}
+
+header, main, footer {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+main {
+  margin-top: 72px;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: black;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  align-items: center;
+}
+
+a:hover, a:active {
+  color: rgba(125, 62, 17,1)
+}
+
+.head1, .head2, .left, .right {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.left, .right {
+  width: 50%;
+}
+
+.mar10r {
+  display: inherit;
+  margin-right: 10px;
+}
+
+.mar10l {
+  display: inherit;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.head2_par {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5vw;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px;
+
+}
+
+.services_img {
+  margin: 3vw 0px;
+  padding: 5px;
+  height: 3vw;
+  border-radius: 50%;
+  background-color: rgba(245, 222, 179, 0.3);
+}
+
+.menu_body {
+  padding: 1vw 0;
+  text-align: center;
+  width: 100%;
+}
+
+.box {
+  display: inline-block;
+  min-height: 400px;
+  min-width: 900px;
+  margin-bottom: 5vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(125, 62, 17,0.5);
+}
+
+.text_box {
+  min-height: 100px;
+  min-width: 900px;
+  background-color: rgba(125, 62, 17,0.5);
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2vw;
+}
+
+.img_box {
+  min-height: 300px;
+  min-width: 900px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.test {
+  min-height: 300px;
+  min-width: 900px;
+}
